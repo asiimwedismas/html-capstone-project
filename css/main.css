@@ -16,6 +16,10 @@ ul {
   list-style: none;
 }
 
+a:hover {
+  color: var(--color-orange) !important;
+}
+
 /* start header styles */
 .top-header {
   background-color: var(--color-62);
@@ -66,6 +70,35 @@ ul {
   color: var(--color-orange);
 }
 
+/* intro section styles */
+.intro {
+  background: url(../images/bg.jpg) center no-repeat;
+  padding-bottom: 80px;
+}
+
+.intro-hello {
+  padding-top: 80px;
+  color: var(--color-orange);
+}
+
+.intro-statement {
+  max-width: 80%;
+  font-weight: lighter;
+  padding: 20px;
+  background: linear-gradient(90deg, #e80a89, #f15b2a);
+  color: var(--color-gray);
+}
+
+.what-where {
+  width: 80%;
+  padding: 10px 10px 10px 20px;
+  margin: 0px;
+  background: rgba(256, 256, 256, 0.1);
+  font-weight: bolder;
+}
+
+/* main-program styles */
+
 .main-program {
   text-align: center;
   background: url(../images/x-bg.jpg);
@@ -76,6 +109,7 @@ ul {
   color: var(--color-gray);
   text-decoration: underline;
   margin-top: 50px;
+  text-transform: uppercase;
 }
 
 .program-list {

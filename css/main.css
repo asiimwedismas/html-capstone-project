@@ -8,6 +8,7 @@
 body {
   background-color: rgb(248, 248, 248);
   color: var(--color-black);
+  font-size: 0.9rem;
 }
 
 ul {
@@ -65,9 +66,54 @@ ul {
   color: var(--color-orange);
 }
 
+.main-program {
+  text-align: center;
+  background: url(../images/x-bg.jpg);
+}
+
+.main-program-bottom-link {
+  display: block;
+  color: var(--color-gray);
+  text-decoration: underline;
+  margin-top: 50px;
+}
+
+.program-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 4px;
+}
+
+.p-card {
+  padding: 20px;
+  background: rgba(256, 256, 256, 0.1);
+}
+
+.p-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.p-card i {
+  font-size: 1.9rem;
+  color: var(--color-gray);
+  margin: 5px;
+}
+
+.partner-header,
+.p-card-explain {
+  color: var(--color-gray);
+}
+
+.p-card-title {
+  color: var(--color-orange);
+}
+
 /* speakers styles */
-.speakers {
-  padding: 60px 0;
+.speakers,
+.main-program,
+footer {
+  padding: 50px 0;
 }
 
 .speaker-wrapper {
@@ -75,9 +121,6 @@ ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 50px 20px;
-}
-
-.speaker-panel {
 }
 
 .speaker-panel > div {
@@ -103,7 +146,8 @@ ul {
   margin-left: 30px;
 }
 
-.speaker-background {
+.speaker-background,
+.other-stuff {
   font-size: 0.85rem;
   font-weight: 500;
 }
@@ -174,9 +218,6 @@ ul {
 }
 
 /* footer styles */
-footer {
-  padding: 60px 0;
-}
 
 footer .container {
   display: flex;

@@ -1,0 +1,9 @@
+:root {
+  --color-black: #272a31;
+  --color-orange: #ec5242;
+  --color-gray: #d3d3d3;
+}
+
+body {
+  background-color: var(--color-gray);
+}

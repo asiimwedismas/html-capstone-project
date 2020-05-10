@@ -65,6 +65,92 @@ ul {
   color: var(--color-orange);
 }
 
+/* speakers styles */
+.speakers {
+  padding: 60px 0;
+}
+
+.speaker-wrapper {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px 20px;
+}
+
+.speaker-panel {
+}
+
+.speaker-panel > div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.speaker-panel .thumb {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  background: url(../images/bg-checker.jpg) no-repeat;
+}
+
+.speaker-panel .about-speaker > p {
+  margin: 0 0 4px 0;
+  padding: 0;
+}
+
+.speaker-panel .about-speaker {
+  width: calc(100% - 200px);
+  text-align: start;
+  margin-left: 30px;
+}
+
+.speaker-background {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.speaker-title {
+  color: var(--color-orange);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.thumb-img {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.king-peppy {
+  background-image: url(../images/king-peppy.png),
+    url(../images/experience-art-2.jpg);
+}
+.grandma {
+  background-image: url(../images/grandma.png),
+    url(../images/experience-art-2.jpg);
+}
+.guy-diamond {
+  background-image: url(../images/guy-diamond.png),
+    url(../images/experience-art-2.jpg);
+}
+.dj-suki {
+  background-image: url(../images/dj-suki.png),
+    url(../images/experience-art-2.jpg);
+}
+.creek {
+  background-image: url(../images/creek.png),
+    url(../images/experience-art-2.jpg);
+}
+.poppy {
+  background-image: url(../images/poppy.png),
+    url(../images/experience-art-2.jpg);
+}
+
 /* partners */
 .partners {
   padding: 20px 0;
@@ -83,7 +169,7 @@ ul {
   vertical-align: middle;
   content: "";
   display: inline-block;
-  border-bottom: 2px solid var(--color-orange);
+  border-bottom: 1px solid var(--color-orange);
   width: 30px;
 }
 

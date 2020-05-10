@@ -5,5 +5,81 @@
 }
 
 body {
-  background-color: var(--color-gray);
+  background-color: rgb(255, 255, 255);
+}
+
+ul {
+  margin: 0px;
+  list-style: none;
+}
+
+/* start header styles */
+.top-header {
+  background-color: var(--color-black);
+
+  padding: 6px 0;
+}
+
+.top-header a {
+  color: white;
+}
+
+.top-header .list-links .nav-ul {
+  display: flex;
+  justify-content: flex-end;
+  vertical-align: middle;
+}
+.top-header .list-links .nav-ul li {
+  margin-left: 10px;
+}
+
+.bottom-header {
+  padding: 20px 0;
+}
+.bottom-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.bottom-header .nav-ul {
+  display: flex;
+}
+
+.bottom-header .nav-ul li a {
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-left: 50px;
+  color: var(--color-black);
+}
+
+.logo-top {
+  min-width: 150px;
+  width: 150px;
+}
+
+.bottom-header .nav-ul li a.my-active-page {
+  color: var(--color-orange);
+}
+
+/* footer styles */
+footer {
+  padding: 60px 0;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+footer .logo-top {
+  margin-right: 30px;
+  width: 150px;
+}
+
+footer .other-stuff p {
+  margin: 0px;
+  padding: 0px;
 }

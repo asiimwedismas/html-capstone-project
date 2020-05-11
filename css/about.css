@@ -1,7 +1,7 @@
 /* past tours  */
 
 section {
-  border-top: 2px solid var(--color-gray);
+  border-top: 1px solid var(--color-gray);
 }
 
 .past-tours-wrapper {
@@ -43,4 +43,30 @@ section {
 
 .logo-competition-about {
   padding: 0 20px;
+}
+
+/* intro */
+.about-header {
+  color: var(--color-orange);
+  text-shadow: 1px 1px 3px black;
+}
+
+.intro-about {
+  background-image: url(../images/trolls-poster-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 25%;
+}
+
+.about-explain {
+  background-color: rgba(256, 256, 256, 0.2);
+  /* color: var(--color-gray); */
+  font-weight: bold;
+  max-width: 80%;
+  margin: 0 auto 30px;
+}
+
+.contact-email {
+  color: black;
+  text-decoration: underline;
 }

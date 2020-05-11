@@ -150,6 +150,7 @@ a:hover {
 }
 
 /* speakers styles */
+.logo-section,
 .speakers,
 .main-program,
 footer {
@@ -277,41 +278,3 @@ footer .other-stuff p {
 }
 
 /* about page styles */
-
-/* past tours */
-.past-tours-wrapper {
-  display: flex;
-  justify-content: center;
-  margin: 60px 0px;
-}
-
-.past-tours-panel {
-  flex: 1 1 0;
-  max-width: 400px;
-  height: 200px;
-  margin: 0 10px;
-  background-size: cover;
-  background-position: center;
-  cursor: pointer;
-}
-
-.tour-history {
-  height: inherit;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: var(--color-gray);
-  background-color: #ec5242bb;
-}
-
-.tour-history:hover {
-  background-color: transparent;
-}
-
-.rio {
-  background-image: url(../images/experience-art-1.jpg);
-}
-
-.nairobi {
-  background-image: url(../images/experience-art-2.jpg);
-}

@@ -1,0 +1,46 @@
+/* past tours  */
+
+section {
+  border-top: 2px solid var(--color-gray);
+}
+
+.past-tours-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0px;
+}
+
+.past-tours-panel {
+  flex: 1 1 0;
+  min-width: 400px;
+  height: 300px;
+  margin: 0 10px;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+.tour-history {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--color-gray);
+  background-color: #ec5242bb;
+}
+
+.tour-history:hover {
+  background-color: transparent;
+}
+
+.rio {
+  background-image: url(../images/experience-art-1.jpg);
+}
+
+.nairobi {
+  background-image: url(../images/experience-art-2.jpg);
+}
+
+.logo-competition-about {
+  padding: 0 20px;
+}

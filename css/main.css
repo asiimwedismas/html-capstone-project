@@ -279,3 +279,8 @@ footer .other-stuff p {
 }
 
 /* about page styles */
+
+.carousel.slide {
+  margin: 20px auto;
+  min-height: 340px;
+}

@@ -284,3 +284,71 @@ footer .other-stuff p {
   margin: 20px auto;
   min-height: 340px;
 }
+
+.carousel-caption {
+  text-shadow: 1px 1px 2px black;
+  color: var(--color-gray);
+}
+
+/* mobile*/
+.mobile-nav {
+  display: none;
+  padding-top: 30px;
+}
+
+.mobile-nav i {
+  padding: 8px;
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-nav {
+    display: block;
+  }
+
+  header {
+    display: none;
+  }
+
+  .program-list,
+  .speaker-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .p-card {
+    display: grid;
+    grid-template-columns: 1fr 2fr 8fr;
+    text-align: left;
+    gap: 20px;
+  }
+
+  .intro-statement,
+  .what-where {
+    min-width: 100%;
+  }
+
+  .past-tours-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0px;
+    flex-direction: column;
+  }
+
+  .past-tours-panel {
+    flex: 0 0 0;
+    flex-basis: 400px;
+    height: 300px;
+    margin: 10 10px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .p-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}

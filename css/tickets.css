@@ -18,6 +18,7 @@
   margin: 20px 0;
 }
 
-.card-header {
-  /* b/ackground-color: var(--color-gray); */
+.tickets-dates-form {
+  width: 500px;
+  margin: 0 auto;
 }

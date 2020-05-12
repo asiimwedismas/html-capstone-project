@@ -1,15 +1,15 @@
-# Newsweek clone
+# HTML Capstone Project
 
-This project required me to build a replica of the news site Newsweek.com using the Bootstrap framework all while being precise, using most bootstrap classes wherever possible and limiting use of my custome classes and css.
+The is an HTML & CSS Capstone Project based on an online website for a fictional musical concert. It's a real-world-like project, built with business specifications and needs.
 
 # Screenshot
 
-![Image description](img/screenshot.jpg)
+![Image description](images/screenshot.jpg)
 
 # Built with
 
 - Html5
-- CSS
+- CSS3
 - Bootstrap v4
 
 # Live Demo
@@ -23,3 +23,7 @@ Dismas Asiimwe
 - Github: [@asiimwedismas](https://github.com/asiimwedismas)
 - Linkedin: [@asiimwedismas](https://www.linkedin.com/in/asiimwedismas/)
 - Twitter: [@asiimwedismas](https://www.twitter.com/asiimwedismas)
+
+# License
+
+[It's a real-world-like project, built with business specifications](https://creativecommons.org/licenses/by-nc/4.0/)

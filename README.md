@@ -26,6 +26,11 @@ Dismas Asiimwe
 - Linkedin: [@asiimwedismas](https://www.linkedin.com/in/asiimwedismas/)
 - Twitter: [@asiimwedismas](https://www.twitter.com/asiimwedismas)
 
+# Getting started
+
+- Clone the repository to your machine with: `git clone https://github.com/asiimwedismas/html-capstone-project.git`
+- That's it people, no special downloads or installs required.
+
 # License
 
 [Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/)

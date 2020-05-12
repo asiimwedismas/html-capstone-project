@@ -16,7 +16,7 @@ You can find the original project specifications [here](https://www.behance.net/
 
 # Live Demo
 
-[Live demo](https://rawcdn.githack.com/asiimwedismas/html-capstone-project/f78e67005118f97f35814bc74c1257ae41dab733/index.html)
+[Live demo](https://rawcdn.githack.com/asiimwedismas/html-capstone-project/90749215c356ec06d74922b03a2702a0274c6585/index.html)
 
 # Authors
 

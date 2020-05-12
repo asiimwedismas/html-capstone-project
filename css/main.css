@@ -1,0 +1,374 @@
+:root {
+  --color-black: #272a31;
+  --color-orange: #ec5242;
+  --color-gray: #d3d3d3;
+  --color-62: rgb(62, 62, 62);
+}
+
+body {
+  background-color: rgb(248, 248, 248);
+  color: var(--color-black);
+  font-size: 0.9rem;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+a:hover {
+  color: var(--color-orange) !important;
+}
+
+.bg-62 {
+  background-color: var(--color-62);
+  color: var(--color-gray);
+}
+
+/* start header styles */
+.top-header {
+  background-color: var(--color-62);
+  padding: 6px 0;
+}
+
+.top-header a {
+  color: white;
+}
+
+.bottom-header .nav-ul {
+  display: flex;
+}
+
+.top-header .list-links .nav-ul {
+  display: flex;
+  justify-content: flex-end;
+  vertical-align: middle;
+}
+
+.top-header .list-links .nav-ul li {
+  margin-left: 10px;
+}
+
+.bottom-header {
+  padding: 20px 0;
+  background-color: rgb(255, 255, 255);
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.bottom-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.partner-logos a {
+  display: inline-block;
+  margin: 20px;
+}
+
+.mobile-nav .nav-ul li a {
+  margin-right: 50px;
+}
+
+.bottom-header .nav-ul li a,
+.mobile-nav .nav-ul li a {
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-left: 50px;
+  color: var(--color-black);
+}
+
+.logo-top {
+  min-width: 150px;
+  width: 150px;
+}
+
+.bottom-header .nav-ul li a.my-active-page,
+.mobile-nav .nav-ul li a.my-active-page {
+  color: var(--color-orange);
+}
+
+/* intro section styles */
+.intro {
+  background: url("../images/bg.jpg") center no-repeat;
+  background-size: cover;
+  padding-bottom: 80px;
+}
+
+.intro-hello {
+  padding-top: 80px;
+  color: var(--color-orange);
+}
+
+.intro-statement {
+  max-width: 80%;
+  font-weight: lighter;
+  padding: 20px;
+  background: linear-gradient(90deg, #e80a89, #f15b2a);
+  color: var(--color-gray);
+}
+
+.what-where {
+  width: 80%;
+  padding: 10px 10px 10px 20px;
+  margin: 0;
+  background: rgba(256, 256, 256, 0.1);
+  font-weight: bolder;
+}
+
+/* main-program styles */
+
+.main-program {
+  text-align: center;
+  background: url("../images/x-bg.jpg");
+}
+
+.main-program-bottom-link {
+  display: block;
+  color: var(--color-gray);
+  text-decoration: underline;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+
+.program-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 4px;
+}
+
+.p-card {
+  padding: 20px;
+  background: rgba(256, 256, 256, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.p-card i {
+  font-size: 1.9rem;
+  color: var(--color-gray);
+  margin: 5px;
+}
+
+.partner-header,
+.p-card-explain {
+  color: var(--color-gray);
+}
+
+.p-card-title {
+  color: var(--color-orange);
+}
+
+/* speakers styles */
+.logo-section,
+.intro-about,
+.speakers,
+.main-program,
+footer {
+  padding: 50px 0;
+}
+
+.speaker-wrapper {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px 20px;
+}
+
+.speaker-panel > div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.speaker-panel .thumb {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  background: url("../images/bg-checker.jpg") no-repeat;
+}
+
+footer .other-stuff p {
+  margin: 0;
+  padding: 0;
+}
+
+.speaker-panel .about-speaker > p {
+  margin: 0 0 4px 0;
+  padding: 0;
+}
+
+.speaker-panel .about-speaker {
+  width: calc(100% - 200px);
+  text-align: start;
+  margin-left: 30px;
+}
+
+.speaker-background,
+.other-stuff {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.speaker-title {
+  color: var(--color-orange);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.thumb-img {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.king-peppy {
+  background-image:
+    url("../images/king-peppy.png"),
+    url("../images/experience-art-2.jpg");
+}
+
+.grandma {
+  background-image:
+    url("../images/grandma.png"),
+    url("../images/experience-art-2.jpg");
+}
+
+.guy-diamond {
+  background-image:
+    url("../images/guy-diamond.png"),
+    url("../images/experience-art-2.jpg");
+}
+
+.dj-suki {
+  background-image:
+    url("../images/dj-suki.png"),
+    url("../images/experience-art-2.jpg");
+}
+
+.creek {
+  background-image:
+    url("../images/creek.png"),
+    url("../images/experience-art-2.jpg");
+}
+
+.poppy {
+  background-image:
+    url("../images/poppy.png"),
+    url("../images/experience-art-2.jpg");
+}
+
+/* partners */
+.partners {
+  padding: 20px 0;
+  text-align: center;
+  background-color: var(--color-62);
+}
+
+.underline::after {
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+  content: "";
+  display: inline-block;
+  border-bottom: 1px solid var(--color-orange);
+  width: 30px;
+}
+
+/* footer styles */
+
+footer .logo-top {
+  margin-right: 30px;
+  width: 150px;
+}
+
+/* about page styles */
+
+.carousel.slide {
+  margin: 20px auto;
+  min-height: 340px;
+}
+
+.carousel-caption {
+  text-shadow: 1px 1px 2px black;
+  color: var(--color-gray);
+}
+
+/* mobile */
+.mobile-nav {
+  display: none;
+  padding-top: 30px;
+}
+
+.fas.fa-bars:hover .dropmenu {
+  display: block;
+}
+
+.mobile-nav i {
+  padding: 8px;
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-nav {
+    display: block;
+    position: relative;
+  }
+
+  header {
+    display: none;
+  }
+
+  .program-list,
+  .speaker-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .p-card {
+    display: grid;
+    grid-template-columns: 1fr 2fr 8fr;
+    text-align: left;
+    gap: 20px;
+  }
+
+  .intro-statement,
+  .what-where {
+    min-width: 100%;
+  }
+
+  .past-tours-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+    flex-direction: column;
+  }
+
+  .past-tours-panel {
+    flex: 0 0 0;
+    flex-basis: 400px;
+    height: 300px;
+    margin: 10 10px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .p-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}

@@ -7,7 +7,7 @@ section {
 .past-tours-wrapper {
   display: flex;
   justify-content: center;
-  margin: 60px 0px;
+  margin: 60px 0;
 }
 
 .past-tours-panel {
@@ -34,11 +34,11 @@ section {
 }
 
 .rio {
-  background-image: url(../images/experience-art-1.jpg);
+  background-image: url("../images/experience-art-1.jpg");
 }
 
 .nairobi {
-  background-image: url(../images/experience-art-2.jpg);
+  background-image: url("../images/experience-art-2.jpg");
 }
 
 .logo-competition-about {
@@ -52,7 +52,7 @@ section {
 }
 
 .intro-about {
-  background-image: url(../images/trolls-poster-1.jpg);
+  background-image: url("../images/trolls-poster-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0% 25%;
@@ -60,7 +60,6 @@ section {
 
 .about-explain {
   background-color: rgba(256, 256, 256, 0.2);
-  /* color: var(--color-gray); */
   font-weight: bold;
   max-width: 80%;
   margin: 0 auto 30px;

@@ -2,6 +2,8 @@
 
 The is an HTML & CSS Capstone Project based on an online website for a fictional musical concert. It's a real-world-like project, built with business specifications and needs.
 
+You can find the original project specifications [here](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+
 # Screenshot
 
 ![Image description](images/screenshot.jpg)

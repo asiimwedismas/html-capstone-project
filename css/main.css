@@ -90,7 +90,7 @@ footer .container {
 
 /* intro section styles */
 .intro {
-  background: url(../images/bg.jpg) center no-repeat;
+  background: url("../images/bg.jpg") center no-repeat;
   background-size: cover;
   padding-bottom: 80px;
 }
@@ -120,7 +120,7 @@ footer .container {
 
 .main-program {
   text-align: center;
-  background: url(../images/x-bg.jpg);
+  background: url("../images/x-bg.jpg");
 }
 
 .main-program-bottom-link {
@@ -184,7 +184,7 @@ footer {
   width: 150px;
   height: 150px;
   position: relative;
-  background: url(../images/bg-checker.jpg) no-repeat;
+  background: url("../images/bg-checker.jpg") no-repeat;
 }
 
 footer .other-stuff p {
@@ -229,38 +229,38 @@ footer .other-stuff p {
 
 .king-peppy {
   background-image:
-    url(../images/king-peppy.png),
-    url(../images/experience-art-2.jpg);
+    url("../images/king-peppy.png"),
+    url("../images/experience-art-2.jpg");
 }
 
 .grandma {
   background-image:
-    url(../images/grandma.png),
-    url(../images/experience-art-2.jpg);
+    url("../images/grandma.png"),
+    url("../images/experience-art-2.jpg");
 }
 
 .guy-diamond {
   background-image:
-    url(../images/guy-diamond.png),
-    url(../images/experience-art-2.jpg);
+    url("../images/guy-diamond.png"),
+    url("../images/experience-art-2.jpg");
 }
 
 .dj-suki {
   background-image:
-    url(../images/dj-suki.png),
-    url(../images/experience-art-2.jpg);
+    url("../images/dj-suki.png"),
+    url("../images/experience-art-2.jpg");
 }
 
 .creek {
   background-image:
-    url(../images/creek.png),
-    url(../images/experience-art-2.jpg);
+    url("../images/creek.png"),
+    url("../images/experience-art-2.jpg");
 }
 
 .poppy {
   background-image:
-    url(../images/poppy.png),
-    url(../images/experience-art-2.jpg);
+    url("../images/poppy.png"),
+    url("../images/experience-art-2.jpg");
 }
 
 /* partners */

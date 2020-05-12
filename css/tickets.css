@@ -22,3 +22,8 @@
   width: 500px;
   margin: 0 auto;
 }
+
+.btn.mt-5 {
+  background-color: var(--color-orange);
+  color: white;
+}

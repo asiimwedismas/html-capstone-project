@@ -28,4 +28,4 @@ Dismas Asiimwe
 
 # License
 
-[It's a real-world-like project, built with business specifications](https://creativecommons.org/licenses/by-nc/4.0/)
+[Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/)

@@ -16,7 +16,7 @@ You can find the original project specifications [here](https://www.behance.net/
 
 # Live Demo
 
-[Live demo](https://rawcdn.githack.com/asiimwedismas/Newsweek-clone/2d3a30474ebae68ea064d6909ff41e682631859f/index.html)
+[Live demo](https://rawcdn.githack.com/asiimwedismas/html-capstone-project/f78e67005118f97f35814bc74c1257ae41dab733/index.html)
 
 # Authors
 
